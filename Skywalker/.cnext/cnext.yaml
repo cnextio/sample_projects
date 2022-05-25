@@ -9,3 +9,6 @@ open_files:
 - executor: false
   name: config.json
   path: config.json
+- executor: false
+  name: data_exploration.py
+  path: data_exploration.py
