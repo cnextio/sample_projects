@@ -1,0 +1,21 @@
+{
+    "view_mode": "vertical",
+    "shortcut_keys": {
+        "run_queue": "Mod-l",
+        "set_group": "Mod-k",
+        "set_ungroup": "Mod-j"
+    },
+    "code_editor": {
+        "lint": false,
+        "autocompletion": true,
+        "hover": true
+    },
+    "dataframe_manager": {
+        "show_exec_text": false,
+        "auto_display_data": true
+    },
+    "experiment_manager": {
+        "local_tmp_dir": "/tmp/",
+        "mlflow_tracking_uri": "/tmp/.mlflow"
+    }
+}
