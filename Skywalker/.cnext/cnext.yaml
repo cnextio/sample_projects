@@ -1,5 +1,11 @@
 executor: main.py
 open_files:
-    - executor: true
-      name: main.py
-      path: main.py
+- executor: true
+  name: main.py
+  path: main.py
+- executor: false
+  name: bokeh.py
+  path: visualization/bokeh.py
+- executor: false
+  name: config.json
+  path: config.json
